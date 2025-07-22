@@ -1,0 +1,36 @@
+body {
+  background: linear-gradient(90deg, #d5a8ca, #c8e9f6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.convertor {
+  margin: auto;
+  width: 100%;
+  max-width: 400px;
+}
+input,
+select,
+button {
+  width: calc(100% - 20px);
+  margin: 5px;
+  box-sizing: border-box;
+}
+button {
+  background-color: whitesmoke;
+  color: darkslateblue;
+  font-size: medium;
+  border: none;
+  border-radius: 015px;
+  box-shadow: 0 4px #b1adad;
+}
+
+button:active {
+  background-color: #d5a8ca;
+  color: whitesmoke;
+  box-shadow: 0 2px #666;
+  transform: translateY(1px);
+}
